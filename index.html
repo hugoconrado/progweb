@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página de Teste</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="Hugo Conrado de Carvalho">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		div { width: 600px; }
+	</style>
+</head>
+<body>
+	<div id="texto">
+		<h3>Formulário Bruxo</h3>
+		<p>Escreva aqui as oportunidades de melhoria que julgar cabíveis.<br>
+		Todas as submissões serão devidamente lidas, processadas, arquivadas, deletadas e esquecidas. Sua opinião é muito importante para nós.</p>
+	</div>
+	<div id="formulario">
+		<form id="sugestao" method="GET" action="">
+			<fieldset id="identificacao">
+				<legend>Identifique-se</legend>
+				<table>
+				<label for="nome">Nome</label>
+				<input type="text" name="Nome" id="nome" placeholder="Nome Completo"/>
+				<br>
+				<label for="genero">Gênero</label>
+				<select name="Gênero" id="genero">
+					<option value="1">Masculino</option>
+					<option value="2">Feminino</option>
+					<option value="3">Outro</option>
+				</select>
+				<br>
+				<label for="email">E-Mail</label>
+				<input type="email" name="EMail" id="email" placeholder="usuario@dominio.com">
+				</table>
+			</fieldset>
+			<fieldset id="opiniao">
+				<legend>Dê sua opinião</legend>
+				<textarea name="opiniao" id="opiniao" cols="75" rows="5" placeholder="Diga o que pensa. Mas sem ofender."></textarea>
+			</fieldset>
+			<input type="submit" value="Enviar">
+		</form>
+	</div>
+</body>
+</html>
