@@ -1,0 +1,13 @@
+table, td {
+	border: 1px solid black;
+	box-shadow: 1px 1px 2px 1px black;
+	text-align: right;
+}
+#botao {
+	display: block;
+	margin: auto;
+}
+#circulo {
+	border: 1px solid black;
+	border-radius: 1cm;
+}

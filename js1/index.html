@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Circulando</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<script type="javascript" src="circulo.js"></script>
+	<form name="formulario">
+	<table>
+		<tr>
+			<td>Informe o raio do círculo:</td>
+			<td><input type="number"></td>
+		</tr>
+		<tr>
+			<td colspan=2><input id="botao" type="button" value="Calcular!" onclick="calcula()"></input></td>
+		</tr>
+		<tr>
+			<td>Área:</td>
+			<td><input id="area" type="text" name="area" value="0" readonly></input></td>
+		</tr>
+		<tr>
+			<td>Circunferência:</td>
+			<td><input id="circunferencia" type="text" name="circunferencia" value="0" readonly></input></td>
+		</tr>
+	</table>
+	</form>
+	<div>
+		<p id="teste"></p>
+	</div>
+</html>
